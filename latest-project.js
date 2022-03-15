@@ -25,7 +25,7 @@ all.addEventListener('click', ()=>{                     //Gambar dan tulisan di 
     img_name4.innerText = "Classic\nArchitecture";
 });
 nature.addEventListener('click', ()=>{                  //Gambar dan tulisan di list nature
-    img1.src = './image/nature1.png';
+    img1.src = './image/nature1.jpg';
     img2.src = './image/nature2.jfif';
     img3.src = './image/nature3.jfif';
     img4.src = './image/nature4.jfif';
@@ -47,7 +47,7 @@ industrial.addEventListener('click', ()=>{              //Gambar dan tulisan di 
 more.addEventListener('click', ()=>{                    //Gambar dan tulisan di list more
     img1.src = './image/more1.jfif';
     img2.src = './image/more2.jfif';
-    img3.src = './image/more3.png';
+    img3.src = './image/more3.jpg';
     img4.src = './image/more4.jfif';
     img_name1.innerText = 'Gymanstic\nCenter';
     img_name2.innerText = 'Luxury\nHouse';
