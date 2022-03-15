@@ -12,20 +12,19 @@
     font-family: 'roboto', arial, sans-serif;
 }
 
-.latest-projects-head{                  /* ===== Latest Project Bagian Atas ===== */
+.latest-projects-head{                              /* ===== Latest Project Bagian Atas ===== */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 30px;
     color: #EAEF58;
 }
 
-.latest-projects-head h2{                  /* ===== Tulisan "Latest Project" ===== */
+.latest-projects-head h2{                           /* ===== Tulisan "Latest Project" ===== */
     font-size: 36px;
     font-weight: 600;
 }
 
-.latest-projects-head li{                 /* ===== Tulisan All, Nature, Industrial, More ===== */
+.latest-projects-head li{                           /* ===== Tulisan All, Nature, Industrial, More ===== */
     list-style: none;
     float: left;
     color: white;
@@ -36,19 +35,21 @@
     cursor: pointer;
 }
 
-.latest-projects-head li:hover{            /* ===== Tulisan All, Nature, Industrial, More saat cursor diarahkan ===== */
+.latest-projects-head li:hover{                     /* ===== Tulisan All, Nature, Industrial, More saat cursor diarahkan ===== */
     color: #EAEF58;
     transform: translateY(-5px);
 }
 
-.latest-projects-content{                 /* ===== Gambar-gambar Latest Project ===== */
+.latest-projects-content{                           /* ===== Gambar-gambar Latest Project ===== */
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 30px;
+    width: 100%;
 }
 
-.latest-projects-pict{                 /* ===== Wrapper Gambar Latest Project ===== */
+.latest-projects-pict{                               /* ===== Wrapper Gambar Latest Project ===== */
     display: inline-block;
     position: relative;
     overflow: hidden;
@@ -59,15 +60,15 @@
     transition: 0.3s ease-out;
 }
 
-.latest-projects-pict:hover{            /* ===== Wrapper Gambar Latest Project saat cursor diarahkan ===== */
+.latest-projects-pict:hover{                         /* ===== Wrapper Gambar Latest Project saat cursor diarahkan ===== */
     transform: scale(1.05);
 }
 
-.latest-projects-pict img{            /* ===== Gambar dalam wrapper ===== */
+.latest-projects-pict img{                          /* ===== Gambar dalam wrapper ===== */
     height: 110%;
 }
 
-.latest-projects-pict p {            /* ===== Tulisan dalam wrapper ===== */
+.latest-projects-pict p {                           /* ===== Tulisan dalam wrapper ===== */
     background-color: rgba(0, 0, 0, 0.467);
     position: absolute;
     top: 290px;
@@ -77,4 +78,25 @@
     font-weight: 300;
     font-size: 26px;
 }
+    /* ===== Untuk animasi gambar ===== */
+    .content-group-latest-project{
+        text-align: center;
+        opacity: 0;
+    }
+    .Zindex{
+        z-index: 1;
+    }
+    .display-none{
+        display: none;
+    }
+    .display-appear{
+        display: inline-block;
+    }
+    .elementToFade {
+        animation: fade 1s linear forwards;
+    }
+    @keyframes fade {
+        0% { opacity:0; }
+        100% { opacity:1; }
+    }
 /* ========================================== Latest Project END ================================================= */
