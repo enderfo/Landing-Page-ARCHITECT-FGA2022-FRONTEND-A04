@@ -1,15 +1,15 @@
 
 /* ===== Responsive dari progate ===== */
 @media screen and (max-width: 1000px){   
-
+    .content-group-latest-project{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 670px){
-
-}
-
-/* ===== Responsive Tambahan Latest Project (Sesuai kondisi) ===== */
-@media screen and (max-width: 780px){
+    .latest-projects{
+        padding: 50px;
+    }
     .latest-projects-head{
         flex-direction: column;
         justify-content: center;
@@ -20,12 +20,21 @@
     .latest-projects-head li{
         padding: 10px
     }
-    .latest-projects-content{
-        justify-content: center;
+    .content-group-latest-project{
+        text-align: center;
     }
 }
-@media screen and (max-width: 550px) {
+
+/* ===== Responsive Tambahan Latest Project ===== */
+@media screen and (max-width: 780px){
     .latest-projects{
         padding: 50px;
     }
+    .latest-projects-head li{
+        padding: 10px
+    }
+    .content-group-latest-project{
+        text-align: center;
+    }
 }
+/*================================================*/
