@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================================= Latest Project START ======================================= */
+.latest-projects{
+    background-color: #323232;
+    width: 100%;
+    padding: 100px;
+    font-family: 'roboto', arial, sans-serif;
+}
+
+.latest-projects-head{                  /* ===== Latest Project Bagian Atas ===== */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    color: #EAEF58;
+}
+
+.latest-projects-head h2{                  /* ===== Tulisan "Latest Project" ===== */
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.latest-projects-head li{                 /* ===== Tulisan All, Nature, Industrial, More ===== */
+    list-style: none;
+    float: left;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 15px;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+
+.latest-projects-head li:hover{            /* ===== Tulisan All, Nature, Industrial, More saat cursor diarahkan ===== */
+    color: #EAEF58;
+    transform: translateY(-5px);
+}
+
+.latest-projects-content{                 /* ===== Gambar-gambar Latest Project ===== */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.latest-projects-pict{                 /* ===== Wrapper Gambar Latest Project ===== */
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: 0px 10px 30px 10px;
+    width: 260px;
+    height: 400px;
+    border-radius: 20px;
+    transition: 0.3s ease-out;
+}
+
+.latest-projects-pict:hover{            /* ===== Wrapper Gambar Latest Project saat cursor diarahkan ===== */
+    transform: scale(1.05);
+}
+
+.latest-projects-pict img{            /* ===== Gambar dalam wrapper ===== */
+    height: 110%;
+}
+
+.latest-projects-pict p {            /* ===== Tulisan dalam wrapper ===== */
+    background-color: rgba(0, 0, 0, 0.467);
+    position: absolute;
+    top: 290px;
+    width: 80%;
+    padding: 5px 0px 5px 30px;
+    color: #f6ff00;
+    font-weight: 300;
+    font-size: 26px;
+}
+/* ========================================== Latest Project END ================================================= */

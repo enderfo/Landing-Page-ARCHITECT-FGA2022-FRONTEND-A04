@@ -1,0 +1,26 @@
+
+/* ===== Responsive dari progate ===== */
+@media screen and (max-width: 1000px){   
+
+}
+
+@media screen and (max-width: 670px){
+
+}
+
+/* ===== Responsive Tambahan Latest Project (Sesuai kondisi) ===== */
+@media screen and (max-width: 780px){
+    .latest-projects-head{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .latest-projects-head h2{
+        margin-bottom: 15px;
+    }
+    .latest-projects-head li{
+        padding: 10px
+    }
+    .latest-projects-content{
+        justify-content: center;
+    }
+}
