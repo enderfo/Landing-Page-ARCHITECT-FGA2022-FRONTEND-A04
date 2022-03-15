@@ -6,4 +6,4 @@ Anggota Kelompok :
 2. Alfiyah Nur Indraini   : Bagian Content Here It's Work
 3. Alda Putri             : Bagian Footer & Clients Comment
 4. Andrean Dwi Andaru     : Bagian Header & Head Content
-5. Annisa Nurul Sholihah  : Bagian Content Lates Project
+5. Annisa Nurul Sholihah  : Bagian Content Latest Project
