@@ -266,3 +266,85 @@
 }
 
 /*CONTENT END*/
+
+/* bagian Client Comment */
+.comment-wrapper{
+    height: 469px;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #242424;
+    width: 100%;
+}
+.heading h2{
+    height: 20px;
+    font-size: 36px;
+    color: #EAEF58;
+}
+.comments {
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.comment{   
+    display: inline-block; 
+    background-color: #323232;
+    border-radius: 20px;
+    text-align: justify;
+    width: 400px;
+    padding: 30px 35px;
+    height: 250px;
+}
+.comment h2{    
+    color: #ffffff;
+    font-size: 36px;
+    height: 58px;
+}
+
+.comment h3{
+    color: #ffffff;
+    font-size: 20px;
+    height: 63px;
+    padding-top: 30px;
+}
+.comment p{
+    color: #EAEF58;
+    font-size: 12px;
+    height: 63px;
+    padding-top: 25px;
+}
+
+/* bagian Footer */
+.footer{
+    background-color: #323232;
+    height: 200px;
+    width: 100%;
+}
+
+.footer-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-list h2{
+    color: #EAEF58;
+    font-size: 24px;
+    font-style: normal;
+    letter-spacing: 0.15em;
+    margin-left: 100px;
+    padding: 80px 0px;
+}
+
+.footer-list ul{    
+    margin-right: 50px;
+}
+
+.footer-list li{
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 80px 50px;    
+    list-style: none;
+}
