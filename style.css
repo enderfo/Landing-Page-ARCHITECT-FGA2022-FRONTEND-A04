@@ -8,7 +8,7 @@
 /* MAIN CONTENT CSS */
 .main{
     width:100%;
-    background-color: #323232ec;
+    background-color: #323232;
     font-weight: 300;
     display: flex;
 }
@@ -88,7 +88,7 @@
 
 /* ================================= Latest Project START ======================================= */
 .latest-projects{
-    background-color: #323232;
+    background-color: #242424;
     width: 100%;
     padding: 100px;
     font-family: 'roboto', arial, sans-serif;
