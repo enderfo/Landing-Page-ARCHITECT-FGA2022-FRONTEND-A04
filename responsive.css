@@ -33,6 +33,42 @@
     .main-content:hover {
         width: 400px;
     }
+    
+    /*CONTENT START*/
+    .container {
+        max-width: 1000px;
+        width: 100%;
+    }
+    
+    .content{
+        position: absolute;
+        width: 796px;
+        height: 450px;
+        margin: 100px 100px 100px 104px;
+        /* left: 100px; */
+        /* top: 2628px;  */
+    }
+    .heading h1{
+        margin-bottom: 15px;
+    }
+    .item-txt{
+        width: 359px;
+        padding: 15px 0px;
+    }
+    .image{
+        position: absolute;
+        width: 361px;
+        height: 405px;
+    }
+    .border-img{
+        position: absolute;
+        width: 361px;
+        height: 405px;
+        top: 26px;
+        right: 26px;
+    }
+    /*CONTENT END*/
+    
 }
 
 @media screen and (max-width: 670px){
@@ -90,6 +126,59 @@
     .main-content:hover {
         width: 330px;
     }
+    
+    /*CONTENT START*/
+    .container {
+        max-width: 670px;
+        width: 100%; 
+      }
+    
+    .content{
+        width: 359px;
+        height: 931px;
+        position: none;
+        /* left: 156px; */
+        
+    }
+    .item{
+        width: 100%;
+        margin: 0px auto;
+        
+    }
+    .heading{
+        text-align: center;
+    }
+    .heading h1{
+        margin-bottom: 30px;
+    }
+    .item-txt{  
+        width: 359px;
+        text-align: center;
+        
+    }
+    .item-img{
+        width: 361px;
+        height: 431px;
+        position: relative;
+        margin-bottom:  50px;
+        
+    }
+    .image{
+        width: 361px;
+        height: 405px;
+        text-align: center;
+        position: absolute;
+    }
+    .border-img{
+        width: 361px;
+        height: 405px;
+        position: absolute;
+    }
+    .item-txt p{
+        font-size: 18px;
+        line-height: 21px;
+    }
+    /*CONTENT END*/
 }
 
 /* ===== Responsive Tambahan Latest Project ===== */
