@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    background-color: #323232;
+}
+
 /* MAIN CONTENT CSS */
 .main{
     width:100%;
