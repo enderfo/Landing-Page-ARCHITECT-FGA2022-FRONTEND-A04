@@ -317,6 +317,18 @@ body{
 }
 
 /* bagian Footer */
+.fa {
+    margin-right: 10px;
+}
+
+a{
+    cursor: pointer;
+}
+
+a:hover{
+    color: #EAEF58;
+}
+
 .footer{
     background-color: #323232;
     height: 200px;
