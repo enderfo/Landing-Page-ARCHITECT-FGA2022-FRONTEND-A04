@@ -15,9 +15,44 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
             rel="stylesheet">
-        <title>Document</title>
+        <title>THE FUTURE OF ARCHITECTURE</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
     </head>
     <body>
+        <!--Mulai header -->
+        <header>
+            <!-- Logo kiri Architecture-->
+            <a href="#home" class="logo-left">ARCHITECT</a>
+            <!-- navbar kanan -->
+            <div class="topnav" id="myTopnav"> 
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <a href="#contact">Contact</a>
+                <a href="#project">Project</a>
+                <a href="#about">About</a>
+                <a href="#home" class="active">Home</a>
+            </div>
+            <!-- Pembungkus Tulisan Judul-->
+            <div class="top-wrapper">
+                <div class="tulisan-besar">
+                    <h3>IT’S TIME TO MAKE YOUR PROPERTY MODERN</h3>
+                    <h1>THE FUTURE <br>OF ARCHITECTURE</h1>
+                </div>
+            </div>
+            <!-- Java Script icon burger navbar-->
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }
+            </script>
+        </header>
     <!-- main-content / CONTENT WE ARE LEADER -->
         <div class = 'main'>
             <div class = 'main-left top'>
