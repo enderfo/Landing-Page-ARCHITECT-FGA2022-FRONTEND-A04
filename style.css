@@ -5,10 +5,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body{
-    background-color: #323232;
-}
-
 /* MAIN CONTENT CSS */
 .main{
     width:100%;
@@ -192,6 +188,7 @@ body{
 .container {
     max-width: 1440px;
     width: 100%;
+    background-color: #323232;
   }
 
 .content{
