@@ -183,10 +183,11 @@
     }
 /* ========================================== Latest Project END ================================================= */
 
-/*CONTENT START*/
-
+/*CONTENT START/ Content Here It's Work*/
+body{
+    background: hsl(0, 0%, 14%);
+}
 .container {
-    max-width: 1440px;
     width: 100%;
   }
 
@@ -194,7 +195,7 @@
     position: relative;
     width: 1028px;
     height: 595px;
-    margin: 100px 206px;
+    margin: 0px 206px;
     /* left: 206px; */
     /*top: 2500px;*/
 }
@@ -244,13 +245,13 @@
     
 }
 
-.image{
+.img-content{
     position: absolute;
     width: 499px;
     height: 599px;
     overflow: hidden;
     background-size: cover;
-    background: url(./image/img-item.jpeg) 70% 30%;
+    background: url(image/img-item.jpeg) 70% 30%;
     right: 0;
     top:0;
     border-radius: 20px; 
@@ -265,7 +266,7 @@
     right: 36px;
 }
 
-/*CONTENT END*/
+/*CONTENT END / Content Here It's Work*/
 
 /* bagian Client Comment */
 .comment-wrapper{
