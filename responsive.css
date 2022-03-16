@@ -34,7 +34,7 @@
         width: 400px;
     }
     
-    /*CONTENT START*/
+    /*CONTENT START 1000px/ Content Here It's Work*/
     .container {
         max-width: 1000px;
         width: 100%;
@@ -55,7 +55,7 @@
         width: 359px;
         padding: 15px 0px;
     }
-    .image{
+    .img-content{
         position: absolute;
         width: 361px;
         height: 405px;
@@ -67,7 +67,7 @@
         top: 26px;
         right: 26px;
     }
-    /*CONTENT END*/
+    /*CONTENT END 1000px/ Content Here It's Work*/
     
 }
 
@@ -127,7 +127,7 @@
         width: 330px;
     }
     
-    /*CONTENT START*/
+    /*CONTENT START 670px/ Content Here It's Work*/
     .container {
         max-width: 670px;
         width: 100%; 
@@ -163,7 +163,7 @@
         margin-bottom:  50px;
         
     }
-    .image{
+    .img-content{
         width: 361px;
         height: 405px;
         text-align: center;
@@ -178,7 +178,7 @@
         font-size: 18px;
         line-height: 21px;
     }
-    /*CONTENT END*/
+    /*CONTENT END 670px/ Content Here It's Work*/
 }
 
 /* ===== Responsive Tambahan Latest Project ===== */
