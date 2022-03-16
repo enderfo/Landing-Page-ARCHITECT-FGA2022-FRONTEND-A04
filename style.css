@@ -271,8 +271,9 @@ body{
 /* bagian Client Comment */
 .comment-wrapper{
     height: 469px;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
     background-color: #242424;
     width: 100%;
 }
